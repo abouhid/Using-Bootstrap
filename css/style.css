@@ -93,7 +93,7 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 ul {
@@ -108,4 +108,35 @@ a {
 
 nav{
   background-color: red;
+}
+
+.bot {
+  bottom:24px;
+}
+
+section{
+  background-color: white;
+  margin-bottom: 19px;
+}
+
+.debate{
+  width: 63px!important;
+  height: 63px;
+}
+
+.roboto{
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
+  color:black;
+}
+
+.vs{
+  top:20px;
+  z-index: 0;
+}
+.bord-secondary{
+border: 1px solid #e6e6e6;
+}
+.more-stories{
+  width: 95px!important;
+  height: 95px;
 }
