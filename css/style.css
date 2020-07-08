@@ -120,8 +120,13 @@ section{
 }
 
 .debate{
-  width: 63px!important;
+  width: 63px;
   height: 63px;
+}
+
+.img-logo{
+  width: 29px;
+  height: 29px;
 }
 
 .roboto{
@@ -135,6 +140,9 @@ section{
 }
 .bord-secondary{
 border: 1px solid #e6e6e6;
+}
+.grey-color{
+  background-color: #f4f5f6;
 }
 .more-stories{
   width: 95px!important;
