@@ -141,10 +141,29 @@ section{
 .bord-secondary{
 border: 1px solid #e6e6e6;
 }
-.grey-color{
+.graybg{
   background-color: #f4f5f6;
 }
 .more-stories{
   width: 95px!important;
   height: 95px;
+}
+
+.parentimg{
+  width:240px;
+  height:260px;
+}
+
+.subsimg{
+  height: 227px;
+  width: 170px;
+}
+.subsimg2{
+  height: 227px;
+  width: 170px;
+  top:20px;
+  left:85px;
+}
+.imgnews{
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
 }
