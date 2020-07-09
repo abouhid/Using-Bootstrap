@@ -16,24 +16,52 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
-</head>
+</head> 
 
 <body class="grey-color">
-  <nav class="container-fluid d-flex justify-content-sm-between d-flex py-0 pl-0 pr-3">
+  <nav class="container-fluid d-flex justify-content-between d-flex py-0 pl-0 pr-3">
 
     <img class="w-25" alt="logo" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg"></img>
     <div class="align-items-center d-flex">
-      <i class="fa fa-user mr-3 text-light" aria-hidden="true"></i>
+      <i class="fa fa-user mr-3 text-light d-none d-sm-block" aria-hidden="true"></i>
+      <span class="mr-3 text-light d-none d-md-block">LOGIN</span>
       <button type="button" class="btn bg-warning text-dark my-1 font-weight-bold p-1">SUBSCRIBE ></button>
 
       <i class="fa fa-bars ml-3 text-light" aria-hidden="true"></i>
     </div>
   </nav>
+  <div class="container-fluid d-none d-lg-block p-0 mt-3">
+    <ul class="d-flex justify-content-evenly">
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#">U.S</a></li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> World</a> </li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> Business</a> </li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> Tech & Science</a></li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> Culture</a> </li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> Newsgeek</a> </li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> Sports</a> </li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> Health</a> </li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> The Debate</a></li>
+      <li><a class="h5 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-2" href="#"> Vantage</a> </li>
+      <li><a class="h5 text-dark font-weight-bold px-2" href="#"> Weather</a> </li>
+      <li>Search<i class="fas fa-search pl-2" aria-hidden="true"></i></li>
+    </ul>
+  </div>
+  <div class="container-fluid d-none d-lg-block">
+    <ul class="d-flex">
+      <li><strong>Trending</strong></li>
+      <li><a class="h6 text-dark font-weight-bold px-3" href="https://www.newsweek.com/topic/donald-trump">Donald Trump</a></li>
+      <li><a class="h6 text-dark font-weight-bold px-3" href="https://www.newsweek.com/topic/joe-biden">Joe Biden</a></li>
+      <li><a class="h6 text-dark font-weight-bold px-3" href="https://www.newsweek.com/topic/china">China</a></li>
+      <li><a class="h6 text-dark font-weight-bold px-3" href="https://www.newsweek.com/topic/coronavirus">Coronavirus</a></li>
+      <li><a class="h6 text-dark font-weight-bold px-3" href="https://www.newsweek.com/topic/2020-election">2020 Election</a></li>
+    </ul>
+  </div>
+
 <main class="container-fluid">
   <div class="row">
   <!-- TOP STORY -->
-  <section class="container-fluid p-3 col-md-7 order-md-2">
-    <article class="mt-2">
+  <section class="topstory container-fluid p-3 order-md-2 col-md-7 ">
+    <article class="mt-2 m-md-0">
       <h6 class="text-secondary text-uppercase font-weight-bold ">Top Story</h6>
 
       <img class="w-100" alt="article-img"
@@ -46,7 +74,7 @@
   </section>
 
   <!-- FEATURED STORIES -->
-  <section class="container-fluid p-3 mt-3 mt-md-0 col-md-5 order-md-1">
+  <section class="featstories container-fluid p-3 mt-3 mt-md-0 col-md-5 order-md-1>
     <article class="mt-2">
       <h6 class="text-secondary text-uppercase font-weight-bold">Featured Stories</h6>
 
@@ -94,9 +122,9 @@
           quas, asperiores vitae culpa magni cupiditate.</small></h6>
     </article>
   </section>
-</div>
-  <!-- THE DEBATE -->
-  <section class="container-fluid p-3 col-md-3">
+
+  <!-- THE DEBATE & OPINION-->
+  <section class="debateopinion container-fluid p-3 order-md-3">
     <h6 class="text-secondary text-uppercase font-weight-bold">The debate</h6>
     <hr class="bg-secondary">
     <div class="row">
@@ -124,10 +152,7 @@
 
     </div>
     <hr class="bg-secondary">
-  </section>
-
-  <!-- OPINION -->
-  <section class="container-fluid p-3">
+  
     <h5 class="text-secondary text-uppercase font-weight-bold">Opinion</h5>
     <div class="row mt-2">
       <img class="debate ml-3"
@@ -182,7 +207,7 @@
         <h6 class="roboto">The US should adopt a regime change strategy for Iran</h6>
         <h6 class="text-secondary text-uppercase font-weight-bold">By Scott Modell</h6>
       </div>
-    </div>
+    
 
     </div>
     <hr class="bg-secondary">
@@ -196,9 +221,8 @@
       </div>
     </div>
   </section>
-
-  <!-- REALTORS -->
-  <section class="container-fluid p-1">
+  <!-- REALTORS 1 -->
+  <section class="realtors1 container-fluid p-1 order-md-4">
     <article class="mt-2 px-3">
 
       <img class="w-100" alt="article-img"
@@ -225,7 +249,7 @@
   </section>
 
   <!-- MORE STORIES -->
-  <section class="container-fluid p-3">
+  <section class="morestories container-fluid p-3 order-md-7">
     <h6 class="text-secondary text-uppercase font-weight-bold">More Stories</h6>
     <hr class="bord-secondary">
     <div class="row mt-2">
@@ -352,7 +376,7 @@
   </section>
 
   <!-- MY TURN -->
-  <section class="container-fluid p-3 order-md-3">
+  <section class="myturn container-fluid p-3 order-md-2 col-md-7">
     <article class=" mt-2">
       <h6 class="text-secondary text-uppercase font-weight-bold">My turn</h6>
 
@@ -403,8 +427,8 @@
 
   </section>
 
-  <!-- REALTORS -->
-  <section class="container-fluid p-3">
+  <!-- REALTORS2 -->
+  <section class="realtors2 container-fluid p-3 order-md-7 ">
 
     <article class="mt-2 px-3">
 
@@ -422,7 +446,7 @@
   </section>
 
   <!-- FREE SIGN UP -->
-  <form class="container border bord-secondary w-50 p-0">
+  <form class="freesignup container border bord-secondary w-50 p-0 order-md-7">
     <div class="container-fluid p-4 w-100 d-flex flex-column align-items-center grey-color px-8">
       <div class="d-flex justify-content-baseline w-75">
         <img alt="logo" class="img-logo mt-1"
@@ -434,8 +458,8 @@
     </div>
   </form>
 
-  <!-- REALTORS -->
-  <section class="container-fluid p-3">
+  <!-- REALTORS2 -->
+  <section class="realtors2 container-fluid p-3 order-md-7">
     <article class="mt-2 px-3">
 
       <img class="w-100" alt="article-img"
@@ -459,6 +483,11 @@
       </div>
     </article>
   </section>
+
+
+</div>
+
+
 
   <!-- IN THE MAGAZINE -->
   <section class="container-fluid p-3">
@@ -643,7 +672,7 @@
   </section>
 
   <!-- NEWSLETTER -->
-  <section class=" container-fluid p-3 ">
+  <section class="container-fluid p-3 ">
     <h6 class="text-danger text-uppercase font-weight-bold">newsletter</h6>
     <div class="bord-secondary p-4 container-fluid d-flex flex-column justify-content-center">
       <h5 class="roboto text-center">The Starting 5</h5>
