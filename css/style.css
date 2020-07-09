@@ -106,6 +106,21 @@ a {
   cursor: pointer;
 }
 
+.bold22{
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  color: black;
+  line-height: 24px;
+}
+.bold20{
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  color: black;
+  line-height: 24px;
+}
+
 nav{
   background-color: red;
 }
