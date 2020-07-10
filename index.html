@@ -18,7 +18,7 @@
 <body>
   <nav class="row m-0 py-1 pr-3 justify-content-between">
 
-    <a href="#" class="d-none d-lg-block"><span class="d-flex align-baseline h6 text-light font-weight-bold ">Thu, Jul
+    <a href="#" class="d-none d-lg-block"><span class="h6 text-light font-weight-bold ">Thu, Jul
         09, 2020</span></a>
 
     <img class="w-lg-50 newslogo" alt="logo"
@@ -33,42 +33,23 @@
   </nav>
 
 
-  <div class="container-fluid d-none d-lg-block p-0 mt-3">
-    <ul class="d-flex justify-content-around">
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#">U.S</a></li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> World</a> </li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> Business</a> </li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> Tech & Science</a></li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> Culture</a> </li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> Newsgeek</a> </li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> Sports</a> </li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> Health</a> </li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> The Debate</a></li>
-      <li><a
-          class="h6 text-dark font-weight-bold border border-left-0 border-top-0 border-bottom-0 border-secondary px-3"
-          href="#"> Vantage</a> </li>
-      <li><a class="h6 text-dark font-weight-bold px-2" href="#"> Weather</a> </li>
-      <li>Search<i class="fas fa-search pl-2" aria-hidden="true"></i></li>
-    </ul>
-  </div>
+  <header class="container-fluid d-none d-lg-block p-0 mt-3">
+    <ul>
+      <li class="border-left-0"><a href="#">U.S.</a></li>
+      <li><a href="#">World</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">Tech &amp; Science</a></li>
+      <li><a href="#">Culture</a></li>
+      <li><a href="#">Newsgeek</a></li>
+      <li><a href="#">Sport</a></li>
+      <li><a href="#">Healt</a></li>
+      <li><a href="#">The Debate</a></li>
+      <li><a href="#">Vantage</a></li>
+      <li><a href="#">Weather</a></li>
+      <li class="border-left-0"><input class="search1 " placeholder="Search"><i class="fas fa-search" aria-hidden="true"></i></li> 
+     </ul>
+  
+  </header>
   <div class="container-fluid d-none d-lg-block">
     <hr>
 
@@ -91,16 +72,17 @@
 
     <div class="row px-3">
       <!-- TOP STORY -->
-      <section class="topstory px-0 px-lg-3 pl-md-3 container-fluid order-md-2 col-md-7 col-lg-5 mt-sm-3 mt-lg-0">
+      <section
+        class="topstory px-0 pl-lg-0 pr-lg-3 pl-md-3 container-fluid order-md-2 col-md-7 col-lg-5 mt-sm-3 mt-lg-0">
         <article class="">
           <h6 class="text-secondary text-uppercase font-weight-bold ">Top Story</h6>
           <img class="w-100" alt="article-img"
             src="https://d.newsweek.com/en/full/1601062/donald-trump-scotus-decision-finances.jpg?w=591&amp;h=364&amp;f=23cde0158450e984baad3b41a1fe180f">
           <span class="bg-light text-danger px-3 py-1 position-relative bot font-weight-bold">U.S</span>
-          <h4>
+          <h3>
             <a href="/trump-tax-returns-are-fair-game-new-york-prosecutors-supreme-court-rules-1511720"
-              class="mt-2 bold22">Trump's Tax Returns Fair Game for New York Prosecutors, Supreme Court Rules</a>
-          </h4>
+              class="mt-2">Trump's Tax Returns Fair Game for New York Prosecutors, Supreme Court Rules</a>
+          </h3>
 
           <div>This was the first time that the president's financial records were under scrutiny from the Supreme
             Court.</div>
@@ -114,7 +96,7 @@
 
 
               <img class="w-100" alt="article-img"
-                src="https://d.newsweek.com/en/full/1606512/coming-out-gay-man-lgbtq.webp?w=397&h=397&f=e5075357d04d95b7631c6f10d6fb658b">
+                src="https://d.newsweek.com/en/full/1561291/breaking-news-newsweek-high-resolution.jpg?w=95&h=95&f=299fc407e976dcf34fbca5bb7645c1d7">
               <div class="title py-3">
                 <a href="/2020/07/17/worlds-most-isolated-places-1514980.html">World's Most Isolated Places</a></div>
 
@@ -179,8 +161,8 @@
           <section class="morestories container-fluid  p-3 d-md-none d-lg-none d-xl-none"></section>
           <h6 class="text-secondary text-uppercase font-weight-bold">More Stories</h6>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1608249/trump-taxes.webp?w=95&h=95&l=41&t=47&f=0e6dafc0e7273461ecd461600bc02c37">
 
             <div class="col">
@@ -191,8 +173,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1607531/florida-beaches-grim-reaper-coronavirus.webp?w=397&h=397&f=765b8dd61681cea234efb316a47b7baa">
 
             <div class="col">
@@ -203,8 +185,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1607117/islam-muslim-religion.webp?w=397&h=397&f=dbff522e6891b03fc69ba9b43ef69d9a">
 
             <div class="col">
@@ -215,8 +197,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1606512/coming-out-gay-man-lgbtq.webp?w=397&h=397&f=e5075357d04d95b7631c6f10d6fb658b">
 
             <div class="col">
@@ -229,8 +211,8 @@
           </div>
 
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1604673/cul-uncharted-places-banner.webp?w=397&h=397&f=bcd207ee330b4900906b9ba6db319ea5">
 
             <div class="col">
@@ -241,8 +223,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://rawcdn.githack.com/Georjane/Newsweek/5047e3a88c6b5c9defc4140e64e845b0e7383496/images/smallimg5.jpg">
 
             <div class="col">
@@ -254,8 +236,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1603519/50foods-alabama.webp?w=397&h=397&f=e70ae5b771b4f243b7775df59c6b0787">
 
             <div class="col">
@@ -266,8 +248,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1604750/area51-11.webp?w=397&h=397&f=f687245e4a35c5ede60938e093f8f61d">
 
             <div class="col">
@@ -278,8 +260,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1608139/trump-rally-tulsa.webp?w=95&h=95&f=3c159191914e5cf2a2917be927f74f86">
 
             <div class="col">
@@ -291,8 +273,8 @@
           </div>
 
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1607960/jeff-sessions-alabama-runoff-senate.webp?w=95&h=95&f=f32041596eaff4f6da78ba071062bc9d">
 
             <div class="col">
@@ -303,8 +285,8 @@
             </div>
           </div>
           <hr class="bord-secondary">
-          <div class="row mt-2">
-            <img class="more-stories ml-3"
+          <div class="row mt-2 more-stories">
+            <img class="ml-3"
               src="https://d.newsweek.com/en/full/1605625/akbar-rogers-freeport-police.webp?w=95&h=95&f=2253f2d251f7a767daee70a71772f646">
 
             <div class="col">
@@ -327,7 +309,7 @@
             alt="Joe biden " class="w-100">
           <span class="bg-light text-danger px-3 py-1 position-relative bot font-weight-bold">U.S</span>
           <h3>
-            <a class="bold22" href="/bidens-buy-american-jobs-plan-undercuts-trump-wins-lefts-praise-1516746">Biden's
+            <a href="/bidens-buy-american-jobs-plan-undercuts-trump-wins-lefts-praise-1516746">Biden's
               'Buy American' Jobs Plan Undercuts Trump and Wins Left's Praise</a></h3>
           <div class="summary">Joe Biden's "Buy American" economic plan that calls for a $700 billion jobs package
             struck a populist tone that managed to thrill progressives and shock the Trump administration and allies.
@@ -610,8 +592,8 @@
       <section class="morestories container-fluid  p-0 d-md-none d-lg-none d-xl-none">
         <h6 class="text-secondary text-uppercase font-weight-bold">More Stories</h6>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1608249/trump-taxes.webp?w=95&h=95&l=41&t=47&f=0e6dafc0e7273461ecd461600bc02c37">
 
           <div class="col">
@@ -622,8 +604,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1607531/florida-beaches-grim-reaper-coronavirus.webp?w=397&h=397&f=765b8dd61681cea234efb316a47b7baa">
 
           <div class="col">
@@ -634,8 +616,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1607117/islam-muslim-religion.webp?w=397&h=397&f=dbff522e6891b03fc69ba9b43ef69d9a">
 
           <div class="col">
@@ -646,8 +628,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1606512/coming-out-gay-man-lgbtq.webp?w=397&h=397&f=e5075357d04d95b7631c6f10d6fb658b">
 
           <div class="col">
@@ -659,8 +641,8 @@
         </div>
 
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1604673/cul-uncharted-places-banner.webp?w=397&h=397&f=bcd207ee330b4900906b9ba6db319ea5">
 
           <div class="col">
@@ -671,8 +653,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://rawcdn.githack.com/Georjane/Newsweek/5047e3a88c6b5c9defc4140e64e845b0e7383496/images/smallimg5.jpg">
 
           <div class="col">
@@ -684,8 +666,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1603519/50foods-alabama.webp?w=397&h=397&f=e70ae5b771b4f243b7775df59c6b0787">
 
           <div class="col">
@@ -696,8 +678,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1604750/area51-11.webp?w=397&h=397&f=f687245e4a35c5ede60938e093f8f61d">
 
           <div class="col">
@@ -708,8 +690,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1608139/trump-rally-tulsa.webp?w=95&h=95&f=3c159191914e5cf2a2917be927f74f86">
 
           <div class="col">
@@ -721,8 +703,8 @@
         </div>
 
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1607960/jeff-sessions-alabama-runoff-senate.webp?w=95&h=95&f=f32041596eaff4f6da78ba071062bc9d">
 
           <div class="col">
@@ -733,8 +715,8 @@
           </div>
         </div>
         <hr class="bord-secondary">
-        <div class="row mt-2">
-          <img class="more-stories ml-3"
+        <div class="row mt-2 more-stories">
+          <img class="ml-3"
             src="https://d.newsweek.com/en/full/1605625/akbar-rogers-freeport-police.webp?w=95&h=95&f=2253f2d251f7a767daee70a71772f646">
 
           <div class="col">
@@ -753,7 +735,7 @@
           <h6 class="text-secondary text-uppercase font-weight-bold">My turn</h6>
 
           <img class="w-100" alt="article-img"
-            src="https://d.newsweek.com/en/full/1606512/coming-out-gay-man-lgbtq.webp?w=397&h=397&f=e5075357d04d95b7631c6f10d6fb658b">
+            src="https://d.newsweek.com/en/full/1561291/breaking-news-newsweek-high-resolution.jpg?w=95&h=95&f=299fc407e976dcf34fbca5bb7645c1d7">
           <div class="title py-3">
             <a href="/2020/07/17/worlds-most-isolated-places-1514980.html">World's Most Isolated Places</a></div>
 
@@ -886,7 +868,7 @@
 
 
         <article class="col-md-3">
-          <img class="w-100" alt="article-img"
+          <img class="w-100 h-md-50" alt="article-img"
             src="https://d.newsweek.com/en/full/1604216/good-list-banner.jpg?w=466&h=311&q=90&f=2062901c3efd89779019feae0efa97da">
 
           <div class="mt-3 mb-3">
@@ -896,7 +878,7 @@
           </div>
         </article>
         <article class="col-md-3">
-          <img class="w-100" alt="article-img"
+          <img class="w-100 h-md-50" alt="article-img"
             src="https://d.newsweek.com/en/full/1603649/fe-blm-global-banner.jpg?w=466&h=311&l=50&t=50&q=90&f=5891facf5f34d673e1c8ace8cf160efe">
 
           <div class="mt-3 mb-3">
@@ -906,7 +888,7 @@
           </div>
         </article>
         <article class="col-md-3">
-          <img class="w-100" alt="article-img"
+          <img class="w-100 h-md-50" alt="article-img"
             src="https://d.newsweek.com/en/full/1603672/fe-blm-global-patrice-culler.jpg?w=466&h=311&l=51&t=51&q=90&f=100b30ef6ea38176ffe7668da0050621">
 
           <div class="mt-3 mb-3">
@@ -916,7 +898,7 @@
           </div>
         </article>
         <article class="col-md-3">
-          <img class="w-100" alt="article-img"
+          <img class="w-100 h-md-50" alt="article-img"
             src="https://d.newsweek.com/en/full/1601973/georgetown-u.jpg?w=466&h=311&q=90&f=f41a002e0e811e68409a9ef490b86ec1">
 
           <div class="mt-3 mb-3">
@@ -926,7 +908,7 @@
           </div>
         </article>
         <article class="col-md-3">
-          <img class="w-100" alt="article-img"
+          <img class="w-100 h-md-50" alt="article-img"
             src="https://d.newsweek.com/en/full/1606841/joel-schumacher.jpg?w=466&h=311&l=38&t=47&q=90&f=80d7e02eeb699349e95fd281266ff38c">
 
           <div class="mt-3 mb-3">
@@ -936,7 +918,7 @@
           </div>
         </article>
         <article class="col-md-3">
-          <img class="w-100" alt="article-img"
+          <img class="w-100 h-md-50" alt="article-img"
             src="https://d.newsweek.com/en/full/1604706/cul-ps-beauvais.jpg?w=466&h=311&l=52&t=29&q=90&f=e16503359619806ae393f097d88886a3">
 
           <div class="mt-3 mb-3">
@@ -946,7 +928,7 @@
           </div>
         </article>
         <article class="col-md-3">
-          <img class="w-100 imgfocus" alt="article-img"
+          <img class="w-100 h-md-50 imgfocus" alt="article-img"
             src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a">
 
           <span class="bg-light text-danger px-1 py-2 position-relative bot font-weight-bold">IN FOCUS</span>
@@ -981,7 +963,8 @@
           <span class="bg-light text-danger px-3 py-1 text-uppercase position-relative bot font-weight-bold">U.S.</span>
 
           <h3 class="mt-2 font-weight-bold position-relative bot editor"><a
-              href="/texas-coronavirus-greg-abbott-1516895">ICE Offering 'Citizens Academy' Course on Arresting Immigrants</a></h3>
+              href="/texas-coronavirus-greg-abbott-1516895">ICE Offering 'Citizens Academy' Course on Arresting
+              Immigrants</a></h3>
           <h6 class="position-relative bot">"Defensive tactics, firearms familiarization and targeted arrests" are among
             the training attendees will receive, according to a letter from Chicago ICE Field Office Director Robert
             Guadian.</h6>
@@ -993,8 +976,10 @@
             SCIENCE</span>
 
           <h3 class="mt-2 font-weight-bold position-relative bot editor"><a
-              href="/texas-coronavirus-greg-abbott-1516895">Twitter CEO to Fund Universal Basic Income Experiment in These U.S. Cities</a></h3>
-          <div class="position-relative bot">The billionaire co-founder of the social networking giant announced on Thursday that he
+              href="/texas-coronavirus-greg-abbott-1516895">Twitter CEO to Fund Universal Basic Income Experiment in
+              These U.S. Cities</a></h3>
+          <div class="position-relative bot">The billionaire co-founder of the social networking giant announced on
+            Thursday that he
             was investing the funds into the Mayors for a Guaranteed Income, a universal basic income project.</div>
         </article>
         <article class="mt-2 col-md-6">
@@ -1003,8 +988,10 @@
           <span class="bg-light text-danger px-3 py-1 text-uppercase position-relative bot font-weight-bold">NEWS</span>
 
           <h3 class="mt-2 font-weight-bold position-relative bot editor"><a
-              href="/texas-coronavirus-greg-abbott-1516895">Texas Early Voting Shows Record Turnout, Democrat Enthusiasm</a></h3>
-          <div class="position-relative bot">Large numbers of Democrats have showed up for early in-person voting while COVID-19
+              href="/texas-coronavirus-greg-abbott-1516895">Texas Early Voting Shows Record Turnout, Democrat
+              Enthusiasm</a></h3>
+          <div class="position-relative bot">Large numbers of Democrats have showed up for early in-person voting while
+            COVID-19
             embroils Texas, despite concerns that restrictions on mail-in voting would dampen turnout.</div>
         </article>
         <article class="mt-2 col-md-6">
@@ -1014,8 +1001,10 @@
             class="bg-light text-danger px-3 py-1 text-uppercase position-relative bot font-weight-bold">SPORTS</span>
 
           <h3 class="mt-2 font-weight-bold position-relative bot editor"><a
-              href="/texas-coronavirus-greg-abbott-1516895">Mark Cuban Won't Vote for Kanye West After Saying He'd Back Him Over Trump</a></h3>
-          <div class="position-relative bot">On Saturday, the rapper announced his intentions to run for office this year, but has not
+              href="/texas-coronavirus-greg-abbott-1516895">Mark Cuban Won't Vote for Kanye West After Saying He'd Back
+              Him Over Trump</a></h3>
+          <div class="position-relative bot">On Saturday, the rapper announced his intentions to run for office this
+            year, but has not
             formally entered the race.</div>
         </article>
         <article class="mt-2 col-md-6">
@@ -1025,8 +1014,10 @@
             class="bg-light text-danger px-3 py-1 text-uppercase position-relative bot font-weight-bold">WORLD</span>
 
           <h3 class="mt-2 font-weight-bold position-relative bot editor"><a
-              href="/texas-coronavirus-greg-abbott-1516895">Notre Dame: Cathedral's Spire Will be Restored to 19th Century Design</a></h3>
-          <div class="position-relative bot">A fire last April, engulfed the interior of the cathedral and caused its famed spire
+              href="/texas-coronavirus-greg-abbott-1516895">Notre Dame: Cathedral's Spire Will be Restored to 19th
+              Century Design</a></h3>
+          <div class="position-relative bot">A fire last April, engulfed the interior of the cathedral and caused its
+            famed spire
             which was first built in the 13th century, to come crashing down.</div>
         </article>
         <article class="mt-2 col-md-6">
@@ -1035,8 +1026,10 @@
           <span class="bg-light text-danger px-3 py-1 text-uppercase position-relative bot font-weight-bold">U.S.</span>
 
           <h3 class="mt-2 font-weight-bold position-relative bot editor"><a
-              href="/texas-coronavirus-greg-abbott-1516895">Which Restaurants Require Face Masks? Olive Garden, Shake Shack, and More</a></h3>
-          <div class="position-relative bot">While independent and franchise-owned restaurants may implement their own policies, few
+              href="/texas-coronavirus-greg-abbott-1516895">Which Restaurants Require Face Masks? Olive Garden, Shake
+              Shack, and More</a></h3>
+          <div class="position-relative bot">While independent and franchise-owned restaurants may implement their own
+            policies, few
             chains are requiring that diners wear masks nationwide.</div>
         </article>
         <article class="mt-2 col-md-6">
@@ -1046,8 +1039,10 @@
             class="bg-light text-danger px-3 py-1 text-uppercase position-relative bot font-weight-bold">WORLD</span>
 
           <h3 class="mt-2 font-weight-bold position-relative bot editor"><a
-              href="/texas-coronavirus-greg-abbott-1516895">Theme Park Asks Riders to Not Scream on Rollercoasters to Prevent COVID-19</a></h3>
-          <div class="position-relative bot">Don't scream if you want to go faster at one Tokyo theme park, where customers are asked
+              href="/texas-coronavirus-greg-abbott-1516895">Theme Park Asks Riders to Not Scream on Rollercoasters to
+              Prevent COVID-19</a></h3>
+          <div class="position-relative bot">Don't scream if you want to go faster at one Tokyo theme park, where
+            customers are asked
             to keep quiet to avoid the spread of coronavirus</div>
         </article>
 
