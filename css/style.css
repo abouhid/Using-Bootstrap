@@ -111,7 +111,7 @@ header ul {
 nav {
   background-color: red;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 99;
 }
 
@@ -286,12 +286,11 @@ header li a {
 }
 
 @media screen and (max-width: 767px) {
-
-  section{
+  section {
     margin-top: 10px;
   }
 
-  .spacer{
+  .spacer {
     height: 18px;
     display: block;
     width: 100vw;
@@ -333,6 +332,7 @@ header li a {
   nav div {
     margin-top: 20px;
   }
+
   nav {
     position: relative;
   }
