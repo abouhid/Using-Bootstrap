@@ -231,5 +231,17 @@ form{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 362px;
+    padding: 0;
   }
+
+  .substories h4{
+   font-size: 20px;
+  }
+
+  .substories .col{
+    position: absolute;
+    bottom: 20px;
+  }
+  
 }
