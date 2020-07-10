@@ -100,10 +100,41 @@ ul {
   list-style-type: none;
 }
 
-a {
+img{
+  cursor: pointer;
+}
+
+h3 a {
   text-decoration: none;
   color: black;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Roboto Condensed",sans-serif;
+
+}
+
+.col a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+
+}
+
+.col h4 a{
+  font-size: 17px;
+}
+
+.title a{
+  font: bold 16px/19px "Roboto Condensed",sans-serif;
+    color: rgba(3,3,3,.5);
+
+}
+
+.myturn img{
+  width:125px;
+  height:125px;
+
 }
 
 .bold22{
@@ -113,6 +144,7 @@ a {
   color: black;
   line-height: 24px;
 }
+
 .bold20{
   font-family: "Roboto Condensed",sans-serif;
   font-weight: bolder;
