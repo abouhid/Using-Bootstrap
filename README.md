@@ -5,9 +5,9 @@
 ![screenshot](./app_screenshot.png)
 
 This project consists of building a webpage using:
-Bootstrap
-Media queries
-Align all elements with float and flex or grid.
+- Bootstrap
+- Media queries
+- Align all elements with float and flex or grid.
 
 ## Built With
 
