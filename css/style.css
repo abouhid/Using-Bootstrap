@@ -162,6 +162,7 @@ nav a {
   border-radius: 24px;
   display: flex;
   align-items: center;
+  white-space: nowrap;
 }
 
 .fa-bars {
