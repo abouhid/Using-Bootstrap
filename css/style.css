@@ -128,6 +128,44 @@ form{
   max-width: 300px;
 }
 
+.newslogo{
+  width: 150px;
+  height: 40px;
+}
+
+.d-flex .subsbut{
+  background-color: #ffe400;
+    color: black;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars{
+  font-size: 30px;
+}
+
+.imgfocus{
+  height: 178px;
+}
+.focustitle a{
+  font-size: 20px;
+    line-height: 20px;
+    color: black;
+    
+}
+
+.editor a{
+  color:black;
+}
+
+.editor a:hover{
+  color:black;
+
+  text-decoration: underline;
+  text-decoration-color:red ;
+}
+
 .col a {
   text-decoration: none;
   color: black;
@@ -243,5 +281,5 @@ form{
     position: absolute;
     bottom: 20px;
   }
-  
+
 }
