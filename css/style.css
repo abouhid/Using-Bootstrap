@@ -148,6 +148,10 @@ h3 a {
 
 }
 
+nav a {
+  margin-top: 50px;
+}
+
 .newslogo {
   width: 150px;
   height: 40px;
@@ -272,6 +276,11 @@ h3 a {
   background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
 }
 
+.substories{
+  height: 304px;
+}
+
+
 @media screen and (max-width: 767px) {
   .substories {
     display: flex;
@@ -296,6 +305,9 @@ h3 a {
 @media screen and (min-width: 992px) {
   .newslogo {
     width: 400px;
-    height: 60px;
+    height: 100px;
+  }
+  nav div {
+    margin-top: 20px;
   }
 }
