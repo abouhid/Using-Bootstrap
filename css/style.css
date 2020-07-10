@@ -110,6 +110,9 @@ header ul {
 
 nav {
   background-color: red;
+  position: sticky;
+  top:0;
+  z-index: 99;
 }
 
 section {
@@ -141,7 +144,7 @@ h3 a {
 }
 
 nav a {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .hidden {
@@ -283,6 +286,19 @@ header li a {
 }
 
 @media screen and (max-width: 767px) {
+
+  section{
+    margin-top: 10px;
+  }
+
+  .spacer{
+    height: 18px;
+    display: block;
+    width: 100vw;
+    background-color: #e6e6e6;
+    margin: 0 -16px;
+  }
+
   .substories {
     display: flex;
     flex-direction: column;
@@ -293,7 +309,9 @@ header li a {
   }
 
   .substories2 {
-    height: 213px;
+    height: fit-content;
+    align-items: center;
+    text-align: center;
   }
 
   .substories h4 {
@@ -314,5 +332,8 @@ header li a {
 
   nav div {
     margin-top: 20px;
+  }
+  nav {
+    position: relative;
   }
 }

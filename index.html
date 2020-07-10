@@ -17,10 +17,10 @@
 </head>
 
 <body>
-  <nav class="row m-0 pr-3 py-1 justify-content-between">
+  <nav class="row m-0 pr-3 py-1 justify-content-between flex-nowrap">
 
-    <a href="#" class="d-none d-lg-block ml-3"><span class="text-light font-weight-bold ">Thu, Jul
-        09, 2020</span></a>
+    <a href="#" class="d-none d-lg-block ml-3"><span class="text-light font-weight-bold "><i class="fas fa-cloud"></i> 
+      22ºC Juiz de Fora, BR <br>Thu, Jul 09, 2020</span></a>
 
     <img class="w-lg-50 newslogo" alt="logo"
       src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg">
@@ -32,7 +32,6 @@
       <i class="fa fa-bars ml-3 text-light d-lg-none d-xl-none" aria-hidden="true"></i>
     </div>
   </nav>
-
 
   <header class="container-fluid d-none d-lg-block p-0 mt-3">
     <ul>
@@ -72,12 +71,12 @@
 
   <main class="container-fluid">
 
-    <div class="row px-3">
+    <div class="row px-3 mobilerow">
       <!-- TOP STORY -->
       <section
-        class="topstory px-0 pl-lg-0 pr-lg-3 pl-md-3 container-fluid order-md-2 col-md-7 col-lg-5 mt-sm-3 mt-lg-0">
+        class="topstory px-0 pl-lg-0 pr-lg-3 pl-md-3 container-fluid order-md-2 col-md-7 col-lg-5 mt-md-3 mt-lg-0">
         <h2 class="hidden">HIDDEN</h2>
-        <article class="">
+        <article>
           <h6 class="text-secondary text-uppercase font-weight-bold ">Top Story</h6>
           <img class="w-100" alt="article-img"
             src="https://d.newsweek.com/en/full/1601062/donald-trump-scotus-decision-finances.jpg?w=591&amp;h=364&amp;f=23cde0158450e984baad3b41a1fe180f">
@@ -90,7 +89,7 @@
           <div>This was the first time that the president's financial records were under scrutiny from the Supreme
             Court.</div>
         </article>
-        <hr>
+        
         <!-- MY TURN-MD / MORE STORIES-MD -->
         <section class="myturn container-fluid py-3 px-0 d-none d-md-block">
           <h6 class="text-secondary text-uppercase font-weight-bold">My turn</h6>
@@ -166,7 +165,7 @@
           <h6 class="text-secondary text-uppercase font-weight-bold">More Stories</h6>
           <hr class="border-class">
           <div class="row mt-2 more-stories">
-            <img class="ml-3" alt="image"
+            <img class="ml-3 float-left" alt="image"
               src="https://d.newsweek.com/en/full/1608249/trump-taxes.webp?w=95&h=95&l=41&t=47&f=0e6dafc0e7273461ecd461600bc02c37">
 
             <div class="col">
@@ -303,7 +302,7 @@
 
         </section>
       </section>
-
+      <div class="spacer d-sm-block d-md-none"> </div>
       <!-- FEATURED STORIES -->
       <section class="featstories p-sm-0 pr-md-3 container-fluid mt-lg-0 col-md-5 order-md-1 col-lg-4 mt-sm-3">
         <h2 class="hidden">HIDDEN</h2>
@@ -403,6 +402,7 @@
 
         </section>
       </section>
+      <div class="spacer d-sm-block d-md-none"> </div>
 
       <!-- THE DEBATE & OPINION-->
       <section class="debateopinion container-fluid p-0 order-md-3 col-lg-3 ">
@@ -432,7 +432,7 @@
             src="https://d.newsweek.com/en/full/1608012/joshua-c-wilson-amanda-hollis-brusky.webp?w=63&h=63&f=6c25a670ebbf61842ef0c18cefc0eb59">
 
         </div>
-        <hr class="bg-secondary">
+        <div class="spacer d-sm-block d-md-none"> </div>
 
         <h5 class="text-secondary text-uppercase font-weight-bold">Opinion</h5>
         <div class="row mt-2">
@@ -565,6 +565,7 @@
           </article>
         </section>
       </section>
+      <div class="spacer d-sm-block d-md-none"> </div>
 
       <!-- REALTORS 1 -->
       <section class="realtors1 container-fluid p-1 d-md-none d-lg-none d-xl-none ">
@@ -598,6 +599,7 @@
         </article>
 
       </section>
+      <div class="spacer d-sm-block d-md-none"> </div>
 
       <!-- MORE STORIES -->
       <section class="morestories container-fluid  p-0 d-md-none d-lg-none d-xl-none">
@@ -739,6 +741,7 @@
         </div>
 
       </section>
+      <div class="spacer d-sm-block d-md-none"> </div>
 
       <!-- MY TURN -->
       <section class="container-fluid p-0 d-md-none d-lg-none d-xl-none">
@@ -863,10 +866,11 @@
           </div>
         </article>
       </section>
+      <div class="spacer d-sm-block d-md-none"> </div>
 
     </div>
     <!-- IN THE MAGAZINE -->
-    <section class="">
+    <section>
       <h5 class="align-items-center text-center font-weight-bold text-uppercase">
         <img alt="logo" class="img-logo" src="https://cdn.theorg.com/9afe16d9-74e8-43d4-bdc1-2f5a74e02cb9_medium.jpg">
         In the magazine
@@ -956,6 +960,7 @@
       </div>
 
     </section>
+    <div class="spacer d-sm-block d-md-none"> </div>
 
     <!-- EDITOR'S PICK -->
     <section class="m-0">
@@ -1067,6 +1072,7 @@
 
       </div>
     </section>
+      <div class="spacer d-sm-block d-md-none"> </div>
 
     <!-- SUBSCRIBE -->
     <div class="row px-3">
@@ -1092,22 +1098,23 @@
 
         </article>
       </section>
+      <div class="spacer d-sm-block d-md-none"> </div>
 
       <!-- NEWSLETTER -->
       <section class="col-lg-5">
 
         <h6 class="text-danger text-uppercase font-weight-bold row">newsletter</h6>
-        <div class="row">
+        <div class="row text-sm-center text-xs-center">
           <div class="col-md-3 p-0 col-lg-6">
             <span class="h-100 w-100 imgnews d-block "></span>
 
           </div>
           <div
-            class="text-md-left substories2 text-sm-center col-md-9 col-lg-6 border-class p-4 container-fluid d-flex flex-column justify-content-center">
+            class="text-md-left substories2 col-md-9 col-lg-6 border-class p-4">
             <h4 class="font-weight-bold">The Starting 5</h4>
-            <p>See why nearly a quarter of a million subscribers begin begin their day with the Starting 5.</p>
-            <input class="p-1 my-3" placeholder="Email adress">
-            <button type="button" class="btn bg-danger text-light font-weight-bold">FREE SIGN UP ></button>
+            <p class="m-0">See why nearly a quarter of a million subscribers begin begin their day with the Starting 5.</p>
+            <input class="my-3 w-100" placeholder="Email adress">
+            <button type="button" class="btn bg-danger text-light font-weight-bold w-100">FREE SIGN UP ></button>
           </div>
       
     </div>
