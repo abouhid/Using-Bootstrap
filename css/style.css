@@ -187,13 +187,10 @@ header li a {
   font-weight: 700;
 }
 
+.editor a,
 .focustitle a {
   font-size: 20px;
   line-height: 20px;
-  color: black;
-}
-
-.editor a {
   color: black;
 }
 
