@@ -93,245 +93,37 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
-div ul {
+ul {
   list-style-type: none;
 }
 
-header ul {
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  width: 100%;
-  list-style-type: none;
+a {
+  color: black;
+  text-decoration: none;
 }
 
 nav {
-  background-color: red;
-  position: sticky;
-  top: 0;
-  z-index: 99;
-}
-
-section {
-  background-color: white;
-  margin-bottom: 19px;
-}
-
-form {
-  max-width: 300px;
-}
-
-header li {
-  border-left: 1px solid #d9d9d9;
-  flex-grow: 1;
+  height: fit-content;
+  background-image: url(https://thumbs.dreamstime.com/z/music-instrument-background-1760976.jpg);
+  background-position: 50%;
+  background-size: cover;
   text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 5%;
 }
 
-img {
-  cursor: pointer;
+.searchContainer h2 {
+  font-size: 5vw;
+}
+.searchContainer h3 {
+  font-size: 3vw;
 }
 
-h3 a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 22px;
-  font-family: "Roboto Condensed", sans-serif;
-}
 
-nav a {
-  margin-top: 25px;
-}
 
-.hidden {
-  display: none;
-}
-
-.newslogo {
-  width: 150px;
-  height: 40px;
-}
-
-.d-flex .subsbut {
-  background-color: #ffe400;
-  color: black;
-  border-radius: 24px;
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
-}
-
-.fa-bars {
-  font-size: 30px;
-}
-
-.imgfocus {
-  height: 178px;
-}
-
-.search1 {
-  width: 60px;
-  border: none;
-}
-
-.fa-search {
-  margin-right: 102px;
-}
-
-header li a {
-  color: black;
-  font-weight: 700;
-}
-
-.editor a,
-.focustitle a {
-  font-size: 20px;
-  line-height: 20px;
-  color: black;
-}
-
-.col a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-}
-
-.title a {
-  font: bold 16px/19px "Roboto Condensed", sans-serif;
-  color: rgba(3, 3, 3, 0.5);
-}
-
-.myturn img {
-  width: 125px;
-  height: 125px;
-}
-
-.debate {
-  width: 63px;
-  height: 63px;
-}
-
-.img-logo {
-  width: 29px;
-  height: 29px;
-}
-
-.roboto {
-  font: bold 17px/21px "Roboto Condensed", sans-serif;
-  color: black;
-}
-
-.vs {
-  top: 20px;
-  z-index: 0;
-}
-
-.border-class {
-  border: 1px solid #e6e6e6;
-}
-
-.graybg {
-  background-color: #f4f5f6;
-}
-
-.more-stories img {
-  width: 95px;
-  height: 95px;
-}
-
-.bot {
-  bottom: 24px;
-}
-
-.parentimg {
-  width: 240px;
-  height: 260px;
-}
-
-.subsimg {
-  height: 227px;
-  width: 170px;
-}
-
-.subsimg2 {
-  height: 227px;
-  width: 170px;
-  top: 20px;
-  left: 85px;
-}
-
-.imgnews {
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
-}
-
-.substories2,
-.substories {
-  height: 304px;
-}
-
-.col h4 a {
-  font-size: 17px;
-}
-
-.editor a:hover {
-  color: black;
-  text-decoration: underline;
-  text-decoration-color: red;
-}
-
-@media screen and (max-width: 767px) {
-  section {
-    margin-top: 10px;
-  }
-
-  .spacer {
-    height: 18px;
-    display: block;
-    width: 100vw;
-    background-color: #e6e6e6;
-    margin: 0 -16px;
-  }
-
-  .substories {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 362px;
-    padding: 0;
-  }
-
-  .substories2 {
-    height: fit-content;
-    align-items: center;
-    text-align: center;
-  }
-
-  .substories h4 {
-    font-size: 20px;
-  }
-
-  .substories .col {
-    position: absolute;
-    bottom: 20px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .newslogo {
-    width: 400px;
-    height: 100px;
-  }
-
-  nav div {
-    margin-top: 20px;
-  }
-
-  nav {
-    position: relative;
-  }
+@media screen and (min-width: 768px) {
+ 
 }
