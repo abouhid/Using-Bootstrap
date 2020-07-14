@@ -16,7 +16,7 @@ This project consists of building a webpage using:
 
 ## DEMO
 
-[Live Demo Link](https://raw.githack.com/abouhid/Using-Bootstrap/feature-branch/index.html)
+[Live Demo Link](https://raw.githack.com/abouhid/Using-Bootstrap/master/index.html)
 
 ### Prerequisites
 
